@@ -32,6 +32,7 @@ system ("CLS");
 if (quiz == 'a')
 {
 cout << "Harry Potter quiz: Which Harry Potter character are you?" << endl <<endl;
+cout<<"Please, answer with 1, 2, 3, 4 or 5."<<endl<<endl;
 Sleep(300);
 
 int choice;
@@ -179,9 +180,9 @@ if (points1>250 && points1<=300){cout<<"You are Harry Potter! You are brave, a q
 if(quiz == 'b')
 {
     cout<<"Titanic quiz: How well do you know Titanic?"<<endl<<endl;
+    cout<<"Please, answer with 1, 2, 3 or 4."<<endl<<endl;
     Sleep(1000);
     cout<<"How long did it take to build Titanic?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) four years"<<endl;
     Sleep(300);
     cout<<"2) three years"<<endl;
@@ -201,7 +202,6 @@ if(quiz == 'b')
     cout<<endl;
 
     cout<<"Which of the following was not on the ship?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) basketball court"<<endl;
     Sleep(300);
     cout<<"2) swimming pool"<<endl;
@@ -219,7 +219,6 @@ if(quiz == 'b')
     cout<<endl;
 
     cout<<"How many bathtubs were available for third-class passengers?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) ten"<<endl;
     Sleep(300);
     cout<<"2) two"<<endl;
@@ -237,7 +236,6 @@ if(quiz == 'b')
     cout<<endl;
 
     cout<<"How many life boats did the Titanic have?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) fourteen"<<endl;
     Sleep(300);
     cout<<"2) twenty-four"<<endl;
@@ -255,7 +253,6 @@ if(quiz == 'b')
     cout<<endl;
 
     cout<<"After the Titanic broke in two,how long did take for the bow to reach the bottom of the Atlantic Ocean?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) 6 minutes"<<endl;
     Sleep(300);
     cout<<"2) 1 minute"<<endl;
@@ -273,7 +270,6 @@ if(quiz == 'b')
     cout<<endl;
 
     cout<<"What was the first boat to reach the scene of the Titanic's sinking?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) Olympic"<<endl;
     Sleep(300);
     cout<<"2) Frankfurt"<<endl;
@@ -292,7 +288,6 @@ if(quiz == 'b')
     cout<<endl;
 
     cout<<"When was the wreck of the Titanic discovered?"<<endl;
-    cout<<"Enter a number between 1 and 4"<<endl;
     cout<<"1) 1920"<<endl;
     Sleep(300);
     cout<<"2) 1991"<<endl;
